@@ -123,6 +123,21 @@ body {
   background-color: var(--ocean-color);
   left: 0;
   bottom: 0;
+
+  opacity: 0;
+}
+
+.menu-link-index::after{
+  opacity: 1;
+}
+
+.menu-link-portfolio::after
+{
+  opacity: 1;
+}
+
+.menu-link-contacts::after{
+  opacity: 1;
 }
 
 .contacts {
