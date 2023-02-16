@@ -127,16 +127,7 @@ body {
   opacity: 0;
 }
 
-.menu-link-index::after{
-  opacity: 1;
-}
-
-.menu-link-portfolio::after
-{
-  opacity: 1;
-}
-
-.menu-link-contacts::after{
+.active::after{
   opacity: 1;
 }
 
