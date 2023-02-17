@@ -25,6 +25,10 @@ img {
   display: block;
 }
 
+button {
+  cursor: pointer;
+}
+
 :root {
   --primary-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
@@ -225,7 +229,6 @@ body {
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--ocean-color);
-  cursor: pointer;
   box-shadow: 0px 4px 4px 0px #00000026;
 }
 
@@ -541,7 +544,6 @@ body {
 .nav-button:focus {
   background-color: var(--ocean-color);
   color: var(--white-color);
-  cursor: pointer;
 }
 
 .works-cards {
