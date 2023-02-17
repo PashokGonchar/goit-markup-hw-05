@@ -630,6 +630,13 @@ body {
   background-color: rgba(46, 47, 66, 0.4);
 }
 
+.backdrop.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+
 .modal {
   position: absolute;
   top: 50%;
@@ -661,7 +668,7 @@ body {
 
   transition: background-color;
   transition-timing-function: cubic-bezier(0.2, 0, 0.2, 1);
-  transition-duration: 250ms
+  transition-duration: 250ms;
 }
 
 .modal-close-btn:hover,
@@ -675,3 +682,4 @@ body {
   height: 8px;
   background-color: transparent;
 }
+
