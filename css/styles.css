@@ -658,6 +658,16 @@ body {
   position: absolute;
   top: 24px;
   right: 24px;
+
+  transition: background-color;
+  transition-timing-function: cubic-bezier(0.2, 0, 0.2, 1);
+  transition-duration: 250ms
+}
+
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+  background-color: var(--ocean-color);
+  fill: var(--white-color);
 }
 
 .close-btn {
