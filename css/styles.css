@@ -19,6 +19,7 @@ ul {
 
 .link {
   text-decoration: none;
+  outline: none;
 }
 
 img {
@@ -117,7 +118,7 @@ body {
   color: var(--ocean-color);
 }
 
-.active{
+.active {
   color: var(--ocean-color);
 }
 
@@ -131,7 +132,6 @@ body {
   background-color: var(--ocean-color);
   left: 0;
   bottom: 0;
-
 }
 
 .contacts {
@@ -195,6 +195,8 @@ body {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-text {
@@ -630,7 +632,6 @@ body {
   transition: opacity, visibility, transform;
   transition-timing-function: cubic-bezier(0.2, 0, 0.2, 1);
   transition-duration: 250ms;
-  
 }
 
 .backdrop.is-hidden {
